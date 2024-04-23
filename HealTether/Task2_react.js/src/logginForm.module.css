@@ -1,0 +1,85 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://st4.depositphotos.com/2627021/38344/i/450/depositphotos_383443342-stock-photo-deckchairs-parasol-palm-trees-tropical.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .loginsignupbox {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loginbox, .signupbox {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .loginbox {
+    background-color: #40CCCC;
+    color: black;
+  }
+  
+  .loginbox .heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: sans-serif;
+  }
+  
+  .loginbox .inputfield,
+  .signupbox .inputfield {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .loginbox .submitbutton,
+  .signupbox .submitbutton {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+
+  
+  .signupbox {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .signupbox .heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .signupbox .subheading {
+    margin-bottom: 20px;
+    color: #8e8e8e;
+  }
+  
+  

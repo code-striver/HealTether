@@ -1,0 +1,61 @@
+
+.headerbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.userinfo {
+    display: flex;
+    align-items: center;
+}
+
+.useravatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc; 
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.searchform {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.searchform input[type="text"] {
+    width: 60vw;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.searchform button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logoutbutton {
+    padding: 8px 15px ;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding-right: 20px;
+}

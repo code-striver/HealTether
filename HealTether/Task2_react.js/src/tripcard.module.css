@@ -1,0 +1,84 @@
+.tripcard {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    /* Adjust width as needed */
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  .tripdetails {
+    padding: 5px;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+  }
+  
+  .tripheader {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tripname {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions .updatebutton {
+    margin-left: 10px;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .actions .deletebutton {
+    margin-left: 10px;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .destinations {
+    margin-top: 15px;
+  }
+  
+  .destination {
+    margin-bottom: 20px;
+  }
+  
+  .destinationname {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .date {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .activitieslist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activitieslist li {
+    margin-bottom: 5px;
+  }
+  
+  .activitieslist li:before {
+    content: "•";
+    margin-right: 5px;
+  }
+  
